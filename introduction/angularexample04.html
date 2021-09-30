@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
+    </script>
+    <link rel="stylesheet" href="angularexample04.css">
+    <body>
+
+        <p>Tente alterar os nomes</p>
+
+        <div ng-app="myApp" ng-controller="myCtrl">
+
+            <p id="name">Nome:</p> <input type="text" ng-model="firstName"><br>
+            <p id="lastName">Sobrenome:</p> <input type="text" ng-model="lastName"><br>
+            <br>
+            <p id="fullName">Nome completo:</p> 
+            <p id="result">{{ firstName + " " + lastName}}</p>
+          
+        </div>
+        
+        <script src="angularexample04.js" type="text/javascript"></script>
+    
+    </body>
+</html>
