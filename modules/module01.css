@@ -1,0 +1,11 @@
+* {
+    font-family: sans-serif;
+}
+
+div.ng-scope.ng-binding {
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    width: 85px;
+}

@@ -1,0 +1,30 @@
+* {
+    font-family: sans-serif;
+}
+
+p#expression {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    width: 240px;
+}
+
+p#label{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    width: 60px;
+}
+
+input {
+    width: 233px;
+}
+
+p#result {
+    background-color: purple;
+    color: white;
+    border: 2px solid black;
+    width: 370px;
+}

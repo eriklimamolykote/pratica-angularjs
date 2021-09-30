@@ -1,0 +1,11 @@
+* {
+    font-family: sans-serif;
+}
+
+p#result {
+    background-color: purple;
+    color: white;
+    border: 2px solid black;
+    font-weight: bold;
+    width: 240px;
+}
