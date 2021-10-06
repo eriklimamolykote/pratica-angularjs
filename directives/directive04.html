@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" href="directive04.css">
+</head>
+<body>
+
+    <div ng-app="" ng-init="names=[
+        {name:'Erik', country:'Brazil'},
+        {name:'Ryu', country:'Japan'},
+        {name:'Ken', country:'USA'}]">
+
+        <p>Repetição com objetos:</p>
+        <ul>
+            <li ng-repeat="x in names">
+                {{ x.name + ', ' + x.country }}</li>
+        </ul>
+    </div>
+
+</body>
+</html>

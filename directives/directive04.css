@@ -1,0 +1,13 @@
+* {
+    font-family: sans-serif;
+}
+
+ul {
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+}
+
+li.ng-binding.ng-scope {
+    border: 2px solid black;
+}

@@ -1,0 +1,33 @@
+* {
+    font-family: sans-serif;
+}
+
+h2 {
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    border: 2px solid black;
+    width: 290px;
+}
+
+p.ng-binding {
+    background-color: purple;
+    font-weight: bold;
+    color: white;
+    border: 2px solid black;
+    width: 11rem;
+}
+
+input#quantity {
+    background-color: green;
+    font-weight: bold;
+    color: white;
+    border: 2px solid black;
+}
+
+input#price {
+    background-color: lightyellow;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+}
