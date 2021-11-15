@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" href="binding03.css">
+</head>
+<body>
+
+    <div ng-app="myApp" ng-controller="myCtrl">
+        Nome: <input ng-model="firstname">
+        <h1>{{firstname}}</h1>
+    </div>
+
+    <script src="binding03.js" type="text/javascript"></script>
+
+    <p>Mude o nome dentro do campo de entrada e 
+        o modelo de dados mudará automaticamente e, 
+        portanto, o cabeçalho também mudará seu 
+        valor. </p>
+
+</body>
+</html>

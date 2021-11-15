@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" href="model02.css">
+</head>
+<body>
+
+    <script src="model03.js" type="text/javascript"></script>
+
+    <form ng-app="" name="myForm">
+        E-mail: 
+        <input type="email" name="myAddress" 
+            ng-model="text">
+        <span id="spanEmail" ng-show="myForm.myAddress.$error.email">
+            E-mail inválido
+        </span>    
+    </form>
+
+    <p>Digite seu endereço de e-mail no campo de entrada. 
+        AngularJS exibirá uma mensagem de erro se o 
+        endereço não for um e-mail.</p>
+
+</body>
+</html>

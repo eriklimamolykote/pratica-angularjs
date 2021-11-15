@@ -1,0 +1,11 @@
+* {
+    font-family: sans-serif;
+}
+
+h1.ng-binding {
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    width: 72px;
+}

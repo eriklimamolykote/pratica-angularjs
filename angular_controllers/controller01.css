@@ -1,0 +1,11 @@
+* {
+    font-family: sans-serif;
+}
+
+div#nomeCompleto.ng-binding {
+    background-color: orange;
+    color: white;
+    border: 2px solid black;
+    font-weight: bold;
+    width: 242px;
+}

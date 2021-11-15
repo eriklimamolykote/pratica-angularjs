@@ -1,0 +1,7 @@
+* {
+    font-family: sans-serif;
+}
+
+input.ng-invalid {
+    background-color: lightblue;
+}

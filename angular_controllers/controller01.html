@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" href="controller01.css">
+</head>
+<body>
+
+    <div ng-app="myApp" ng-controller="myCtrl">
+
+        Nome: <input type="text" ng-model="firstName"><br>
+        Sobrenome: <input type="text" ng-model="lastName"><br>
+        <br>
+        <div id="nomeCompleto">
+            Nome Completo: {{firstName + " " + lastName}}
+        </div>
+    </div>
+
+    <script src="controller01.js" type="text/javascript"></script>
+
+</body>
+</html>
