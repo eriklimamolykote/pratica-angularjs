@@ -1,0 +1,12 @@
+html {
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: rgb(75, 21, 52);
+    color: white;
+}
+
+li.ng-binding.ng-scope {
+    border: 2px solid white;
+    background-color: black;
+    width: max-content;
+}

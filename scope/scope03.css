@@ -1,0 +1,20 @@
+html {
+    font-family: sans-serif;
+    background-color: rgba(48, 146, 141, 0.767);
+    color: white;
+}
+
+input#nome {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width: max-content;
+}
+
+h2.ng-binding {
+    /* background-color: black;
+    color: white; */
+    font-family: 'Press Start 2p';
+    font-weight: bold;
+    width: max-content;
+}

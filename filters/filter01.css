@@ -1,0 +1,14 @@
+html {
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: rgba(59, 173, 13, 0.767);
+    color: white;
+}
+
+p#fullName {
+    font-family: 'Press Start 2p';
+    font-weight: bold;
+    /* background-color: rgb(228, 231, 42); */
+    color: white;
+    width: max-content;
+}
