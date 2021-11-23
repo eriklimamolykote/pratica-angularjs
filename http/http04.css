@@ -1,0 +1,11 @@
+* {
+    font-family: sans-serif;
+    background: linear-gradient(to right, rgb(0, 71, 18), rgb(0, 0, 0));
+    color: white;
+}
+
+h1.ng-binding {
+    font-family: 'Press Start 2p';
+    font-weight: bold;
+    font-size: 14px;
+}

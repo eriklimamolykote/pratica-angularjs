@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta lang="pt-BR">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <link rel="stylesheet" href="service02.css">
+    </head>
+    <body>
+        
+        <div ng-app="myApp" ng-controller="myCtrl">
+
+            <p>A mensagem de boas-vindas de hoje é:</p>
+
+            <h1>{{myWelcome}}</h1>
+
+        </div>
+
+        <p>O serviço $http requisita uma página no 
+            servidor e a resposta é configurada como o valor da 
+            variável "myWelcome".</p>
+
+        <script src="service02.js" type="text/javascript"></script>
+
+    </body>
+</html>

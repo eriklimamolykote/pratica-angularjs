@@ -1,0 +1,12 @@
+* {
+    font-family: sans-serif;
+    background: linear-gradient(to right, rgb(136, 1, 125), rgb(53, 0, 53));
+    color: white;
+}
+
+li.ng-binding.ng-scope {
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: max-content;
+}
